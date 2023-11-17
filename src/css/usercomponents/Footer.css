@@ -1,0 +1,31 @@
+.userFooter {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #1d0a40;
+    padding: 0.5em;
+    border-top: 2px solid white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 1em;
+    height: 5rem;
+    width: 100%;
+}
+.userFooterHomeIcon {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    font-size: 1.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    transition: all 0.2s ease-in-out;
+}
+.userFooterHomeIcon:hover {
+    transform: scale(1.1);
+}

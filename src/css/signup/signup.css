@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signupContainer {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(261, 74%, 15%, 0.9);
+    background-image: url('../../img/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainSignupNav {
+    height: 4rem;
+    width: 100%;
+    background-color: #1d0a4065;
+    border-bottom: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.signupBg {
+    width: 90%;
+    height: 80%;
+    margin: 6.5rem 3rem 3rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.signupForm {
+    width: 40%;
+    height: 70%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.signupTitle {
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+.mainSignupBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100%;
+}
+.mainSignupHead {
+    font-family: 'Young Serif', 'sans-serif';
+    font-size: 2.75rem;
+}
+.mainSignupBody {   
+    font-size: 2rem;
+    margin: 1rem;
+}
+.mainSignupBody td {
+    height: 4rem;
+}
+.userButton,
+.doctorButton {
+    font-family: 'Alice', 'sans-serif';
+    background-color: #1d0a404f;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 20rem;
+    height: 80%;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 1.5rem;
+}
+.signinUserLink, 
+.signinDoctorLink {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+

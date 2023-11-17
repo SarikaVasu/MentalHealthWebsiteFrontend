@@ -1,0 +1,62 @@
+.fillDoctorinfo {
+    background-image: url('../../img/door3.jpg');
+    background-position: center;
+    background-color: #00253fe6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fillDoctorinfoForm {
+    background-color: #b7d2e51b;
+    width: 50%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.doctorinfoP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.doctorinfoInput {
+    width: 95%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.doctorinfoLabel {
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75rem;
+}
+.doctorinfoTextarea {
+    width: 95%;
+    border-radius: 1rem;
+}
+.doctorinfoSelect {
+    display: block;
+    width: 95%;
+    border-radius: 1rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+.doctorinfoButton {
+    width: 70%;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 1rem;
+}

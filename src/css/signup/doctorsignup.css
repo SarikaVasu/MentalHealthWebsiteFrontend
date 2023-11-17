@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Young+Serif&display=swap');
+.doctorSignupContainer {
+    font-family: 'Alice', 'sans-serif';
+    font-size: 1.25rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d0a40;
+    background-image: url('../../img/bg2.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-blend-mode: multiply;
+}
+.doctorSignupBg {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctorSignupForm {
+    background-color: #b7d2e51b;
+    border-radius: 1rem;
+    border-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.signupTable {
+    display: flex;
+    flex-direction: column;
+}
+.doctorSignupHead {
+    width: 100%;
+    height: 100%;
+    font-family: 'Young Serif', 'sans-serif';
+    font-size: 2rem;
+    text-align: center;
+}
+.doctorSignupBody tr {
+    font-size: 1.25rem;
+}
+.doctorSignupBody td {
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    padding-top: 1rem;
+}
+.doctorSignupBottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.15rem;
+    padding: 0.5rem;
+}
+.doctorUsername,
+.doctorPassword {
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+    font-family: 'Alice', 'sans-serif';
+}
+.doctorSignupButton {
+    margin: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border-color:#14052f;
+    background-color: rgb(6, 168, 232);
+    font-family: 'Alice', 'sans-serif';
+}
+.doctorSignupHeader {
+    height: 4rem;
+    width: 100%;
+    background-color: #b7d2e51b;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+    font-size: 2rem;
+    position: fixed;
+    top: 0px;
+}

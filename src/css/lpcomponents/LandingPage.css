@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+    height: 100vh;
+}
+.titleContainer {
+    width: 100%;
+    height: 90%;
+    padding-top: 4rem;
+    background-image: url('../../img/img5.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(16, 4, 35);
+    color: rgba(11, 6, 33, 0.747);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.siteName {
+    font-size: 8rem;
+    font-family: 'Alfa Slab One';
+}
+.tagLine {
+    font-size: 3rem;
+    font-family: 'Caveat';   
+}
+.doctorContainer {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    color: rgba(11, 6, 33, 0.747);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.consultationModeContainer {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    color: rgba(11, 6, 33, 0.747);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
