@@ -20,7 +20,7 @@ const UserViewApp = () => {
     }
 
     return (
-        <section className="appSection allApp">
+        <section className="appSection allApp bgBody">
             <h2 className="appTitle">Appointments</h2>
             {content}
         </section>

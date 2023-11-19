@@ -10,10 +10,10 @@ const UserFooter = () => {
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
-  const onGoHomeClicked = () => navigate('/doctor');
+  const onGoHomeClicked = () => navigate('/user');
 
   let goHomeButton = null;
-  if (pathname !== '/doctor') {
+  if (pathname !== '/user') {
     goHomeButton = (
       <button
         className='userFooterHomeIcon'

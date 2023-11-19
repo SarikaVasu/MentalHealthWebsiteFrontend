@@ -15,7 +15,7 @@ const UserWelcome = () => {
     const link1 = `/confession-forum/post/my-posts/${anonymousname}`;
 
     const content = (
-        <section className="welcome">
+        <section className="welcome bgBody">
 
             <p>{today}</p>
 
