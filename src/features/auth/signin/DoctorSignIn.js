@@ -145,11 +145,6 @@ const DoctorSignIn = () => {
             <p>
             Don't have an account?<Link to='/user-signup' style={{'textDecoration': 'underline'}}>Sign Up</Link>
             </p>
-          </article> 
-          <article className='doctorSigninBottom'>
-            <p>
-              <Link to="/forgot-password" style={{'textDecoration': 'underline'}}>Forgot Password</Link>
-            </p>
           </article>
         </form>
       </article>

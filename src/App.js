@@ -1,9 +1,9 @@
 import LandingPage from './components/LandingPage';
-import Doctors from './components/rootcomponents/Doctors';     //details only (pending)
-import Services from './components/rootcomponents/Services';  //details only (pending)
+import Doctors from './components/rootcomponents/Doctors';     
+import Services from './components/rootcomponents/Services';  
 import Posts from './components/rootcomponents/Posts';
-import About from './components/rootcomponents/About';   //details only (pending)
-import ContactUs from './components/rootcomponents/ContactUs';    //details only (pending)
+import About from './components/rootcomponents/About';   
+import ContactUs from './components/rootcomponents/ContactUs';    
 
 import MainSignUp from './features/auth/signup/MainSignUp';
 import UserSignUp from './features/auth/signup/UserSignUp';
@@ -12,7 +12,6 @@ import DoctorSignUp from './features/auth/signup/DoctorSignUp';
 import MainSignIn from './features/auth/signin/MainSignIn';
 import UserSignIn from './features/auth/signin/UserSignIn';
 import DoctorSignIn from './features/auth/signin/DoctorSignIn';
-import ForgotPassword from './features/auth/signin/ForgotPassword'; //pending
 
 import UserLayout from './features/userDashboard/UserLayout';
 import UserWelcome from './features/userDashboard/UserWelcome';
@@ -73,13 +72,12 @@ function App() {
         <Route path="/signin" element = {<MainSignIn />}></Route>
         <Route path='/user-signin' element = {<UserSignIn />}></Route>
         <Route path='/doctor-signin' element = {<DoctorSignIn />}></Route>
-        <Route path="/forgot-password" element = {<ForgotPassword />}></Route>
 
 
         {/* Protected Routes */}
         {/* remain logged in even after refresh => PersistLogin */}
         <Route element={<PersistLogin />}>   
-          <Route element={<RequireAuth allowedRoles={[...Object.values(ROLES)]} />}>  {/*Object.values(ROLES) => all the roles are passed */} 
+          <Route element={<RequireAuth allowedRoles={[...Object.values(ROLES)]} />} >  {/*Object.values(ROLES) => all the roles are passed */} 
             {/* Prefetch stuffs to avoid loading */}
             <Route element={<Prefetch />}>
               {/* //Link?? */}
