@@ -1,0 +1,12 @@
+.BookAppointmentForm {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap: 1rem;
+}
+.btnAppForm {
+    background-color: rgb(242, 91, 116);
+    border-radius: 1rem;
+    width: 40%;
+    margin-left: 8rem;
+}

@@ -1,0 +1,8 @@
+.userAppEach {
+    background-color: rgba(151, 151, 244, 0.29);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}

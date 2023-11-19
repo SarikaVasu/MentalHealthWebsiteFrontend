@@ -1,0 +1,33 @@
+.DoctorList {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+}
+.userBookMainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.userBookAppButton {
+    background-color: rgba(197, 53, 142, 0.885);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.DoctorList,
+.userBookDocContainer {
+    width: 100%;
+}
+.bookDocTitle {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(120, 150, 207, 0.123);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}

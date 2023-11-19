@@ -10,12 +10,13 @@ main {
 }
 .titleContainer {
     width: 100%;
-    height: 90%;
+    height: 100%;
     padding-top: 4rem;
     background-image: url('../../img/img5.webp');
-    background-size: cover;
     background-position: center;
-    background-color: rgb(16, 4, 35);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:  rgba(9, 4, 54, 0.229);
     color: rgba(11, 6, 33, 0.747);
     display: flex;
     flex-direction: column;
@@ -34,22 +35,117 @@ main {
 .doctorContainer {
     width: 100%;
     height: 90%;
-    background-color: white;
+    background-color:  rgba(25, 8, 55, 0.964);
     color: rgba(11, 6, 33, 0.747);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url('../../img/i1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 .consultationModeContainer {
     width: 100%;
     height: 90%;
-    background-color: white;
+    background-color: rgba(25, 8, 55, 0.964);
     color: rgba(11, 6, 33, 0.747);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url('../../img/i1.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
 }
+
+.doctorContentContainer {
+    background-color: rgba(54, 50, 57, 0.536);
+    height: 100%;
+    padding: 2rem; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add box shadow for a subtle effect */
+    min-width: 95%; /* Optional: set a maximum width for the white box */
+    margin-bottom: 2rem;
+    color: white;
+    margin-top: 3rem;
+  }
+.psychologistsList {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+  .consultationModeContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 8, 55, 0.964);
+    background-image: url('../../img/i2.jpg');
+    background-position: center;
+    color: rgba(10, 2, 48, 0.747);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .consultationContentContainer {
+    background-color: rgba(54, 50, 57, 0.536);
+    height: 100%;
+    padding: 3rem;
+    min-width: 95%;
+    border-radius: 10px;
+    color: white;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .consultationModesList {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .imageCon {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .im{
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+    background-image: url('../../img/ac.jpeg');
+    opacity: 0.8;
+    background-size: cover;
+  }
+
+  .im1{
+    width: 100%;
+    height: 300px;
+    opacity: 0.7;
+    border-radius: 1rem;
+    background-image: url('../../img/forum.jpg');
+    background-size: cover;  
+  }
+
+  .im2{
+    width: 100%;
+    height: 300px;
+    opacity: 0.8;
+    border-radius: 1rem;
+    background-image: url('../../img/vc.jpeg');
+    background-size: cover; 
+  }
+
+  .modeText {
+    font-size: 2rem;
+    padding: 1rem;
+  }

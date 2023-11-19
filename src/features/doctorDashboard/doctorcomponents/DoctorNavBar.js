@@ -10,19 +10,16 @@ import '../../../css/doctorcomponents/NavBar.css';
 
 const DoctorNavBar = () => {
   const { id1 } = useAuth();
-  console.log(id1);
 
   const { data: doctors,
     isLoading : isInfoLoading,
     isSuccess : isInfoSuccess,
     isError,
     error } = useGetDoctorinfosQuery('getDoctorinfos');
-    console.log(doctors);
 
   const user = (doctors?.entities[id1]);
   let link;
   if(isInfoSuccess) {
-    console.log(user)
     if(user?.firstname && user?.lastname && user?.gender && user?.dob && user?.contactno && user?.email && user?.address && user?.degree && user?.college && user?.clinic && user?.clinicContact && user?.experience ) {
       link = '/doctor/doctor-profile';
     } else {

@@ -1,0 +1,14 @@
+.bookDocArticle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    padding: 1rem;
+}
+.eachDocDet {
+    width: 50%;
+    background-color: rgba(120, 150, 207, 0.123);
+    border-radius: 1rem;
+
+}

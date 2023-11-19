@@ -4,7 +4,7 @@ import '../../css/rootcomp/Posts.css';
 
 const Posts = () => {
   return (
-    <>
+    <body className="bgBody">
       <AllHeader />
       <h1 style={{position:'fixed', top:'0px'}}>Let's Talk</h1>
       <div className="postsDivContainer">
@@ -17,7 +17,7 @@ const Posts = () => {
           </section>
         </section>
       </div>
-    </>
+    </body>
   )
 }
 

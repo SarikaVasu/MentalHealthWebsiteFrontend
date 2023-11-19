@@ -4,13 +4,14 @@ import useTitle from '../../hooks/useTitle'
 
 const DoctorWelcome = () => {
 
-    const { username, anonymousname } = useAuth()
+    const { id, username, anonymousname } = useAuth()
 
     useTitle(`Doctor Dashboard: ${username}`)
 
     const date = new Date()
     const today = new Intl.DateTimeFormat('en', { dateStyle: 'full', timeStyle: 'long' }).format(date);
 
+    const link = `/doctor/view-appointment/${id}`;
     const link1 = `/confession-forum/post/my-posts/${anonymousname}`;
 
     const content = (
@@ -24,6 +25,9 @@ const DoctorWelcome = () => {
 
             <br />
 
+            <p className="welcomeP">
+                <Link to={link}>View my Appointments</Link>
+            </p>
             <p className='welcomeP'>
                 <Link to={link1}>My posts</Link>  
             </p>

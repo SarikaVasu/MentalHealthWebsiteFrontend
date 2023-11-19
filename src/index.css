@@ -71,7 +71,8 @@
 
 /* || GENERAL STYLES */
 
-body {
+body,
+.bgBody {
   font-family: 'Nunito', sans-serif;
   min-height: 100vh;
   background-color: var(--BGCOLOR);

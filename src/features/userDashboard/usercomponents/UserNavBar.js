@@ -19,9 +19,7 @@ const UserNavBar = () => {
   const user = (users?.entities[id1]);
   let link;
   if(isInfoSuccess) {
-    console.log(user);
     if(user?.firstname && user?.lastname && user?.gender && user?.dob && user?.contactno && user?.email && user?.address ) {
-      console.log('Yes');
       link = '/user/user-profile';
     } else {
       link = '/user/fill-userinfo';

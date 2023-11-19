@@ -16,6 +16,9 @@ import ForgotPassword from './features/auth/signin/ForgotPassword'; //pending
 
 import UserLayout from './features/userDashboard/UserLayout';
 import UserWelcome from './features/userDashboard/UserWelcome';
+import UserBookApp from './features/userDashboard/UserBookApp';
+import BookingForm from './features/userDashboard/BookingForm';
+import UserViewApp from './features/userDashboard/UserViewApp';
 import FillUserinfo from './features/userDashboard/FillUserinfo';
 import UserProfile from './features/userDashboard/UserProfile';
 import ChangeUserProfile from './features/userDashboard/ChangeUserProfile';
@@ -25,6 +28,7 @@ import NewUserForm from './features/admin/userlogin/NewUserForm';
 
 import DoctorLayout from './features/doctorDashboard/DoctorLayout';
 import DoctorWelcome from './features/doctorDashboard/DoctorWelcome';
+import DoctorViewApp from './features/doctorDashboard/DoctorViewApp';
 import FillDoctorinfo from './features/doctorDashboard/FillDoctorinfo';
 import DoctorProfile from './features/doctorDashboard/DoctorProfile';
 import ChangeDoctorProfile from './features/doctorDashboard/ChangeDoctorProfile'
@@ -81,6 +85,9 @@ function App() {
               {/* //Link?? */}
               <Route path='user' element = {<UserLayout />}>
                 <Route index element = {<UserWelcome />} /> 
+                <Route path='book-appointment' element={<UserBookApp />}></Route>
+                <Route path='book-appointment-form' element={<BookingForm />}></Route>
+                <Route path='view-appointment/:id' element={<UserViewApp />}></Route>
                 <Route path='fill-userinfo' element={<FillUserinfo />}></Route>
                 <Route path='user-profile' element = {<UserProfile />} />
                 <Route path='user-profile-modify' element = {<ChangeUserProfile />} />
@@ -99,6 +106,7 @@ function App() {
 
               <Route path='doctor' element = {<DoctorLayout />}>
                 <Route index element = {<DoctorWelcome />} /> 
+                <Route path='view-appointment/:id' element={<DoctorViewApp />}></Route>
                 <Route path='fill-doctorinfo' element={<FillDoctorinfo />}></Route>
                 <Route path='doctor-profile' element = {<DoctorProfile />} />
                 <Route path='doctor-profile-modify' element = {<ChangeDoctorProfile />} />

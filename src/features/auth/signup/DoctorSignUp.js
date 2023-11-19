@@ -46,7 +46,6 @@ useEffect(() => {
 }, [username, password])
 
 useEffect(() => {
-  console.log(isSuccess);
   if (isSuccess) {
       setUsername('');
       setPassword('');

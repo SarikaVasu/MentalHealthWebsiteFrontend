@@ -85,7 +85,6 @@ export const selectUsersResult = userloginsApiSlice.endpoints.getUsers.select()
 const selectUsersData = createSelector(
     selectUsersResult,
     usersResult => usersResult.data // normalized state object with ids & entities
-    // console.log(usersResult)
 )
 
 export const {

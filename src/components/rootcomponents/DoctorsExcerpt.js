@@ -16,12 +16,7 @@ const DoctorsExcerpt = ({ id }) => {
             <article className="doctorArticle">
                 <p>Firstname: {doctor?.firstname}</p>
                 <p>Lastname: {doctor?.lastname}</p>
-                {/* <p>Gender: {doctor.gender}</p> */}
-                {/* <p>Email: {doctor.email}</p>
                 <p>Degrees: {doctor.degrees}</p>
-                <p>College: {doctor.college}</p>
-                <p>Clinic Name: {doctor.clinic}</p>
-                <p>Clinic Contact number: {doctor.clinicContact}</p> */}
                 <p>Working Experience: {doctor?.experience}</p>
             </article>
         </article>

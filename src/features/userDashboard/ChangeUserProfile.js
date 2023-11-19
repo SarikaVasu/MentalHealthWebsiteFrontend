@@ -101,7 +101,6 @@ const UserProfile = () => {
                 document.getElementById('email').disabled = true;
                 document.getElementById('address').disabled = true;
                 document.getElementById('userprofileButton').disabled = true;
-                console.log("yes3")
             } catch (err) {
                 console.error('Failed to save the post', err);
             }

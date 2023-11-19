@@ -145,7 +145,6 @@ const ChangeDoctorProfile = () => {
             document.getElementById('clinicno').disabled = true;
             document.getElementById('exp').disabled = true;
             document.getElementById('userprofileButton').disabled = true;
-            console.log("yes3")
         } catch (err) {
             console.error('Failed to save the post', err);
         }
