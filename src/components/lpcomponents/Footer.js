@@ -20,7 +20,7 @@ const Footer = () => {
                     <Link to="/confession-forum" className='footerLink'>Let's Talk</Link>
                 </li>
                 <li>
-                    <Link to="/about" className='footerLink'>About</Link>
+                    <Link to="/about" className='footerLink'>About Us</Link>
                 </li>
                 <li>
                     <Link to="/contact-us" className='footerLink'>Contact Us</Link>

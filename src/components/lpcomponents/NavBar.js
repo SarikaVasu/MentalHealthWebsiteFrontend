@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import '../../css/lpcomponents/NavBar.css';
+import Logo from '../../img/ManaMLogo.png'
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav style={{height:'4.5rem'}}>
         <article>
-            <span>ManaM</span>
+            <img src={Logo} alt="ManaM Logo" style={{ height: '3rem', verticalAlign: 'middle', marginRight: '0.5rem' }} />
+            <span style={{ fontFamily: 'serif', fontWeight: 'bold', fontSize: '2rem', paddingTop:'0.1rem', display:'inline' }}>ManaM</span>
         </article>
         <article>
             <ul className='navItems'>
